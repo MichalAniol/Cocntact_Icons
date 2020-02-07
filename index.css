@@ -1,26 +1,11 @@
-@font-face {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    src: url('font/Rubik-Regular.eot');
-    src: local('open sans extralight'), local('open-sans-extralight'), url('font/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('font/Rubik-Regular.woff2') format('woff2'), url('font/Rubik-Regular.woff') format('woff'), url('font/Rubik-Regular.ttf') format('truetype'), url('font/Rubik-Regular.svg#Barlow') format('svg');
-}
-
-:root {
-    --color_1: #006600;
-    --color_2: #001600;
-    --color_3: #000800;
-    --color_back: white;
-    --font: 'Rubik', sans-serif
+html {
+    --color_back: white
 }
 
 body {
     margin: 10px;
     padding: 0;
-    background-color: var(--color_back);
-    color: var(--color_1);
-    font-family: var(--font);
-    font-size: 20px;
+    background-color: var(--color_back)
 }
 
 .wrapper {
@@ -31,9 +16,12 @@ body {
     transform: translate(-50%, -50%);
     background-color: blanchedalmond;
     padding: 7px;
-    border-radius: 30px;
-    display: flex;
+    border-radius: 27px;
+    display: flex
 }
+
+
+/* icons */
 
 .contact_icon {
     width: 80px;
@@ -41,11 +29,11 @@ body {
     margin-right: 15px;
     -webkit-transition: all .4s cubic-bezier(.22, .46, .5, .98);
     transition: all .4s cubic-bezier(.22, .46, .5, .98);
-    cursor: pointer;
+    cursor: pointer
 }
 
 .contact_icon:last-child {
-    margin-right: 0;
+    margin-right: 0
 }
 
 .contact_icon:hover {
@@ -55,11 +43,11 @@ body {
 .contact_icon>.line {
     fill: #000;
     -webkit-transition: all 1s;
-    transition: all .4s;
+    transition: all .4s
 }
 
 .contact_icon:hover .line {
-    fill: #fff;
+    fill: #fff
 }
 
 
@@ -68,31 +56,31 @@ body {
 .contact_icon #SVGID_1a {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all .4s;
+    transition: all .4s
 }
 
 .contact_icon:hover #SVGID_1a {
-    stop-color: #e13719;
+    stop-color: #e13719
 }
 
 .contact_icon #SVGID_1b {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition: all 1s
 }
 
 .contact_icon:hover #SVGID_1b {
-    stop-color: #d02708;
+    stop-color: #d02708
 }
 
 .contact_icon #SVGID_1c {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1.5s;
+    transition: all 1.5s
 }
 
 .contact_icon:hover #SVGID_1c {
-    stop-color: #ca2028;
+    stop-color: #ca2028
 }
 
 
@@ -101,31 +89,31 @@ body {
 .contact_icon #SVGID_2a {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all .4s;
+    transition: all .4s
 }
 
 .contact_icon:hover #SVGID_2a {
-    stop-color: #8bb7f0;
+    stop-color: #8bb7f0
 }
 
 .contact_icon #SVGID_2b {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition: all 1s
 }
 
 .contact_icon:hover #SVGID_2b {
-    stop-color: #1877f2;
+    stop-color: #1877f2
 }
 
 .contact_icon #SVGID_2c {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1.5s;
+    transition: all 1.5s
 }
 
 .contact_icon:hover #SVGID_2c {
-    stop-color: #1c407c;
+    stop-color: #1c407c
 }
 
 
@@ -134,41 +122,41 @@ body {
 .contact_icon #SVGID_3a {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition: all 1s
 }
 
 .contact_icon:hover #SVGID_3a {
-    stop-color: #FED576;
+    stop-color: #FED576
 }
 
 .contact_icon #SVGID_3b {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all .3s;
+    transition: all .3s
 }
 
 .contact_icon:hover #SVGID_3b {
-    stop-color: #F47133;
+    stop-color: #F47133
 }
 
 .contact_icon #SVGID_3c {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all .6s;
+    transition: all .6s
 }
 
 .contact_icon:hover #SVGID_3c {
-    stop-color: #BC3081;
+    stop-color: #BC3081
 }
 
 .contact_icon #SVGID_3d {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition: all 1s
 }
 
 .contact_icon:hover #SVGID_3d {
-    stop-color: #4C63D2;
+    stop-color: #4C63D2
 }
 
 
@@ -177,31 +165,31 @@ body {
 .contact_icon #SVGID_4a {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all .4s;
+    transition: all .4s
 }
 
 .contact_icon:hover #SVGID_4a {
-    stop-color: #fff660;
+    stop-color: #fff660
 }
 
 .contact_icon #SVGID_4b {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition: all 1s
 }
 
 .contact_icon:hover #SVGID_4b {
-    stop-color: #ffd936;
+    stop-color: #ffd936
 }
 
 .contact_icon #SVGID_4c {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1.5s;
+    transition: all 1.5s
 }
 
 .contact_icon:hover #SVGID_4c {
-    stop-color: #ff6200;
+    stop-color: #ff6200
 }
 
 
@@ -210,39 +198,39 @@ body {
 .contact_icon #SVGID_5a {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all .3s;
+    transition: all .3s
 }
 
 .contact_icon:hover #SVGID_5a {
-    stop-color: #12f912;
+    stop-color: #12f912
 }
 
 .contact_icon #SVGID_5b {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all .6s;
+    transition: all .6s
 }
 
 .contact_icon:hover #SVGID_5b {
-    stop-color: #00d500;
+    stop-color: #00d500
 }
 
 .contact_icon #SVGID_5c {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1s;
+    transition: all 1s
 }
 
 .contact_icon:hover #SVGID_5c {
-    stop-color: #009c00;
+    stop-color: #009c00
 }
 
 .contact_icon #SVGID_5d {
     stop-color: #fff;
     -webkit-transition: all 1s;
-    transition: all 1.5s;
+    transition: all 1.5s
 }
 
 .contact_icon:hover #SVGID_5d {
-    stop-color: #005400;
+    stop-color: #005400
 }
