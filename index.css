@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('font/Rubik-Regular.eot');
+    src: local('open sans extralight'), local('open-sans-extralight'), url('font/Rubik-Regular.eot?#iefix') format('embedded-opentype'), url('font/Rubik-Regular.woff2') format('woff2'), url('font/Rubik-Regular.woff') format('woff'), url('font/Rubik-Regular.ttf') format('truetype'), url('font/Rubik-Regular.svg#Barlow') format('svg');
+}
+
+:root {
+    --color_1: #006600;
+    --color_2: #001600;
+    --color_3: #000800;
+    --color_back: white;
+    --font: 'Rubik', sans-serif
+}
+
+body {
+    margin: 10px;
+    padding: 0;
+    background-color: var(--color_back);
+    color: var(--color_1);
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+.wrapper {
+    position: absolute;
+    margin-right: -50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blanchedalmond;
+    padding: 7px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.contact_icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    -webkit-transition: all .4s cubic-bezier(.22, .46, .5, .98);
+    transition: all .4s cubic-bezier(.22, .46, .5, .98);
+    cursor: pointer;
+}
+
+.contact_icon:last-child {
+    margin-right: 0;
+}
+
+.contact_icon:hover {
+    transform: scale( 1.3)
+}
+
+.contact_icon>.line {
+    fill: #000;
+    -webkit-transition: all 1s;
+    transition: all .4s;
+}
+
+.contact_icon:hover .line {
+    fill: #fff;
+}
+
+
+/* pinterest */
+
+.contact_icon #SVGID_1a {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all .4s;
+}
+
+.contact_icon:hover #SVGID_1a {
+    stop-color: #e13719;
+}
+
+.contact_icon #SVGID_1b {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact_icon:hover #SVGID_1b {
+    stop-color: #d02708;
+}
+
+.contact_icon #SVGID_1c {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1.5s;
+}
+
+.contact_icon:hover #SVGID_1c {
+    stop-color: #ca2028;
+}
+
+
+/* facebook */
+
+.contact_icon #SVGID_2a {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all .4s;
+}
+
+.contact_icon:hover #SVGID_2a {
+    stop-color: #8bb7f0;
+}
+
+.contact_icon #SVGID_2b {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact_icon:hover #SVGID_2b {
+    stop-color: #1877f2;
+}
+
+.contact_icon #SVGID_2c {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1.5s;
+}
+
+.contact_icon:hover #SVGID_2c {
+    stop-color: #1c407c;
+}
+
+
+/* instagram */
+
+.contact_icon #SVGID_3a {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact_icon:hover #SVGID_3a {
+    stop-color: #FED576;
+}
+
+.contact_icon #SVGID_3b {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all .3s;
+}
+
+.contact_icon:hover #SVGID_3b {
+    stop-color: #F47133;
+}
+
+.contact_icon #SVGID_3c {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all .6s;
+}
+
+.contact_icon:hover #SVGID_3c {
+    stop-color: #BC3081;
+}
+
+.contact_icon #SVGID_3d {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact_icon:hover #SVGID_3d {
+    stop-color: #4C63D2;
+}
+
+
+/* mic */
+
+.contact_icon #SVGID_4a {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all .4s;
+}
+
+.contact_icon:hover #SVGID_4a {
+    stop-color: #fff660;
+}
+
+.contact_icon #SVGID_4b {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact_icon:hover #SVGID_4b {
+    stop-color: #ffd936;
+}
+
+.contact_icon #SVGID_4c {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1.5s;
+}
+
+.contact_icon:hover #SVGID_4c {
+    stop-color: #ff6200;
+}
+
+
+/* mail */
+
+.contact_icon #SVGID_5a {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all .3s;
+}
+
+.contact_icon:hover #SVGID_5a {
+    stop-color: #12f912;
+}
+
+.contact_icon #SVGID_5b {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all .6s;
+}
+
+.contact_icon:hover #SVGID_5b {
+    stop-color: #00d500;
+}
+
+.contact_icon #SVGID_5c {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.contact_icon:hover #SVGID_5c {
+    stop-color: #009c00;
+}
+
+.contact_icon #SVGID_5d {
+    stop-color: #fff;
+    -webkit-transition: all 1s;
+    transition: all 1.5s;
+}
+
+.contact_icon:hover #SVGID_5d {
+    stop-color: #005400;
+}
