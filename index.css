@@ -20,7 +20,6 @@ body {
     display: flex
 }
 
-
 /* icons */
 
 .contact_icon {
@@ -42,7 +41,10 @@ body {
 
 .contact_icon>.line {
     fill: #000;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
     transition: all .4s
 }
 
@@ -50,12 +52,14 @@ body {
     fill: #fff
 }
 
-
 /* pinterest */
 
 .contact_icon #SVGID_1a {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
     transition: all .4s
 }
 
@@ -66,6 +70,9 @@ body {
 .contact_icon #SVGID_1b {
     stop-color: #fff;
     -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s
 }
 
@@ -75,7 +82,10 @@ body {
 
 .contact_icon #SVGID_1c {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
     transition: all 1.5s
 }
 
@@ -83,12 +93,14 @@ body {
     stop-color: #ca2028
 }
 
-
 /* facebook */
 
 .contact_icon #SVGID_2a {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
     transition: all .4s
 }
 
@@ -99,6 +111,9 @@ body {
 .contact_icon #SVGID_2b {
     stop-color: #fff;
     -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s
 }
 
@@ -108,7 +123,10 @@ body {
 
 .contact_icon #SVGID_2c {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
     transition: all 1.5s
 }
 
@@ -116,12 +134,14 @@ body {
     stop-color: #1c407c
 }
 
-
 /* instagram */
 
 .contact_icon #SVGID_3a {
     stop-color: #fff;
     -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s
 }
 
@@ -131,7 +151,10 @@ body {
 
 .contact_icon #SVGID_3b {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s
 }
 
@@ -141,7 +164,10 @@ body {
 
 .contact_icon #SVGID_3c {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
     transition: all .6s
 }
 
@@ -152,6 +178,9 @@ body {
 .contact_icon #SVGID_3d {
     stop-color: #fff;
     -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s
 }
 
@@ -159,12 +188,14 @@ body {
     stop-color: #4C63D2
 }
 
-
 /* mic */
 
 .contact_icon #SVGID_4a {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
     transition: all .4s
 }
 
@@ -175,6 +206,9 @@ body {
 .contact_icon #SVGID_4b {
     stop-color: #fff;
     -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s
 }
 
@@ -184,7 +218,10 @@ body {
 
 .contact_icon #SVGID_4c {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
     transition: all 1.5s
 }
 
@@ -192,12 +229,14 @@ body {
     stop-color: #ff6200
 }
 
-
 /* mail */
 
 .contact_icon #SVGID_5a {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s
 }
 
@@ -207,7 +246,10 @@ body {
 
 .contact_icon #SVGID_5b {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
     transition: all .6s
 }
 
@@ -218,6 +260,9 @@ body {
 .contact_icon #SVGID_5c {
     stop-color: #fff;
     -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s
 }
 
@@ -227,7 +272,10 @@ body {
 
 .contact_icon #SVGID_5d {
     stop-color: #fff;
-    -webkit-transition: all 1s;
+    -webkit-transition: all 1.5s;
+    -moz-transition: all 1.5s;
+    -ms-transition: all 1.5s;
+    -o-transition: all 1.5s;
     transition: all 1.5s
 }
 
